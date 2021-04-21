@@ -1,0 +1,14 @@
+##### Core scientific packages
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+seaborn
+python-dotenv
+
+
+##### PyTorch framework
+torch
+torchvision
+tensorboard

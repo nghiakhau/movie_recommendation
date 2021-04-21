@@ -1,0 +1,23 @@
+{
+  "rating_dir": "data/ratings.csv",
+  "movie_dir": "data/movies_w_description.csv",
+  "processed_data_dir": "data/processed",
+  "save_dir": "saved/4_5_5_False_15000_2",
+  "p_dims": [200, 600],
+  "device": "cuda",
+  "seed": 2021,
+  "tr_batch_size": 512,
+  "te_batch_size": 2000,
+  "learning_rate": 1e-3,
+  "l2_reg": 0,
+  "dropout": 0.5,
+  "total_anneal_steps": 200000,
+  "anneal_cap": 0.2,
+  "pos_threshold": 4,
+  "min_user_count": 5,
+  "min_movie_count": 5,
+  "num_user_test": 15000,
+  "sort": 0,
+  "epochs": 100,
+  "msg": "test calculating training loss"
+}

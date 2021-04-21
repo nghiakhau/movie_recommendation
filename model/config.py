@@ -1,0 +1,27 @@
+class UserEmbeddingConfig:
+
+    def __init__(self, config):
+        self.num_movie = config['num_movie']
+        self.num_head = config['num_head']
+        self.hidden_size = config['hidden_size']
+        self.num_layer = config['num_layer']
+        self.embedding_weights_path = config['embedding_weights_path']
+        self.dropout = config['dropout']
+        self.classifier_hidden_size_1 = config['classifier_hidden_size_1']
+        self.classifier_hidden_size_2 = config['classifier_hidden_size_2']
+        self.num_special_token = config['num_special_token']
+        self.feedforward_size = config['feedforward_size']
+        self.seed = config['seed']
+        self.data_dir = config['data_dir']
+        self.tr_batch_size = config['tr_batch_size']
+        self.vad_batch_size = config['vad_batch_size']
+        self.max_movie = config['max_movie']
+        self.save_dir = config['save_dir']
+        self.device = config['device']
+        self.learning_rate = config['learning_rate']
+        self.l2_reg = config['l2_reg']
+        self.epochs = config['epochs']
+        self.accumulate_grad_batches = config['accumulate_grad_batches']
+        self.msg = config['msg']
+        self.warmup_steps = config['warmup_steps']
+
